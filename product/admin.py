@@ -31,7 +31,7 @@ class CategoryAdmin2(ImportExportModelAdmin, DraggableMPTTAdmin):
         "slug_ar": ("title_ar",),
     }
     # inlines = [CategoryLangInline]
-
+ # inlines = [CategoryLangInline]
     def get_queryset(self, request):
         qs = super().get_queryset(request)
 
